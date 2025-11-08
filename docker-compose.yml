@@ -2,4 +2,4 @@ services:
   web:
     image: charmflex/fem-landing:latest
     ports:
-      - "3085:3000"
+      - "3011:3000"

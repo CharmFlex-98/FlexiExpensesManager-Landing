@@ -1,6 +1,3 @@
-import { Button } from "./ui/button";
-import { Apple, Menu } from "lucide-react";
-import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import Image from "next/image";
 
 export function Header() {
@@ -40,34 +37,34 @@ export function Header() {
             ))}
           </nav>
           
-          {/* Mobile Menu */}
-          <Sheet>
-            <SheetTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="icon">
-                <Menu className="h-5 w-5" />
-              </Button>
-            </SheetTrigger>
-            <SheetContent side="right" className="w-[300px]">
-              <nav className="flex flex-col gap-4 mt-8">
-                {navLinks.map((link) => (
-                  <a
-                    key={link.label}
-                    href={link.href}
-                    className="text-lg hover:text-emerald-600 transition-colors"
-                  >
-                    {link.label}
-                  </a>
-                ))}
-                <div className="flex flex-col gap-2 mt-4">
-                  <Button variant="ghost">Sign In</Button>
-                  <Button className="bg-emerald-600 hover:bg-emerald-700 gap-1.5">
-                    <Apple className="h-4 w-4" />
-                    Download App
-                  </Button>
-                </div>
-              </nav>
-            </SheetContent>
-          </Sheet>
+          {/*/!* Mobile Menu *!/*/}
+          {/*<Sheet>*/}
+          {/*  <SheetTrigger asChild className="md:hidden">*/}
+          {/*    <Button variant="ghost" size="icon">*/}
+          {/*      <Menu className="h-5 w-5" />*/}
+          {/*    </Button>*/}
+          {/*  </SheetTrigger>*/}
+          {/*  <SheetContent side="right" className="w-[300px]">*/}
+          {/*    <nav className="flex flex-col gap-4 mt-8">*/}
+          {/*      {navLinks.map((link) => (*/}
+          {/*        <a*/}
+          {/*          key={link.label}*/}
+          {/*          href={link.href}*/}
+          {/*          className="text-lg hover:text-emerald-600 transition-colors"*/}
+          {/*        >*/}
+          {/*          {link.label}*/}
+          {/*        </a>*/}
+          {/*      ))}*/}
+          {/*      <div className="flex flex-col gap-2 mt-4">*/}
+          {/*        <Button variant="ghost">Sign In</Button>*/}
+          {/*        <Button className="bg-emerald-600 hover:bg-emerald-700 gap-1.5">*/}
+          {/*          <Apple className="h-4 w-4" />*/}
+          {/*          Download App*/}
+          {/*        </Button>*/}
+          {/*      </div>*/}
+          {/*    </nav>*/}
+          {/*  </SheetContent>*/}
+          {/*</Sheet>*/}
         </div>
       </div>
     </header>

@@ -34,7 +34,7 @@ export function ScreenShotRow() {
                             src={screenshot.src}
                             width={248}
                             height={537}
-                            alt={`Screenshot ${screenshot.id}`}
+                            alt={screenshot.alt}
                         />
                     ))}
                 </div>

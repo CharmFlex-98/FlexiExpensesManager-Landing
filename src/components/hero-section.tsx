@@ -1,6 +1,4 @@
-import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
-import { Apple, ArrowRight } from "lucide-react";
 import { ScreenShotRow } from "./figma/ScreenShotRow";
 import Image from "next/image";
 import Link from "next/link";

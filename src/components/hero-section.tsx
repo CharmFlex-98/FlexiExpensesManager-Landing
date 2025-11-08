@@ -32,7 +32,7 @@ export function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 mb-12 items-center">
             <Link href="https://apps.apple.com/app/id6754591820">
               <Image
-                  src="/app_store.svg"
+                  src="/product/landing/app_store.svg"
                   alt="App Store logo"
                   width={150}
                   height={20}
@@ -41,7 +41,7 @@ export function HeroSection() {
 
             <Link  href="https://play.google.com/store/apps/details?id=com.charmflex.cp.flexiexpensesmanager.free">
               <Image
-                  src="/google_play.svg"
+                  src="/product/landing/google_play.svg"
                   alt="App Store logo"
                   width={190}
                   height={20}

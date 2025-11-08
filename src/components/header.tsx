@@ -21,7 +21,7 @@ export function Header() {
               width: '48px', // Define the size of your icon
               height: '48px', // Define the size of your icon
             }}>
-              <Image src="/app_icon.png" alt="" width={48} height={48} />
+              <Image src="/product/landing/app_icon.png" alt="" width={48} height={48} />
           </div>
 
             <span className="font-semibold">FlexiExpensesManager</span>

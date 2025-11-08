@@ -13,13 +13,13 @@ type Screenshot = {
 
 const screenshots: Screenshot[] = [
     // Replace with your actual image sources and data
-    {id: 1, alt: "Screenshot 1", src: "/screenshot_1.png"},
-    {id: 2, alt: "Screenshot 2", src: "/screenshot_2.png"},
-    {id: 3, alt: "Screenshot 3", src: "/screenshot_3.png"},
-    {id: 4, alt: "Screenshot 4", src: "/screenshot_4.png"},
-    {id: 5, alt: "Screenshot 5", src: "/screenshot_5.png"},
-    {id: 6, alt: "Screenshot 5", src: "/screenshot_6.png"},
-    {id: 7, alt: "Screenshot 5", src: "/screenshot_7.png"},
+    {id: 1, alt: "Screenshot 1", src: "/product/landing/screenshot_1.png"},
+    {id: 2, alt: "Screenshot 2", src: "/product/landing/screenshot_2.png"},
+    {id: 3, alt: "Screenshot 3", src: "/product/landing/screenshot_3.png"},
+    {id: 4, alt: "Screenshot 4", src: "/product/landing/screenshot_4.png"},
+    {id: 5, alt: "Screenshot 5", src: "/product/landing/screenshot_5.png"},
+    {id: 6, alt: "Screenshot 5", src: "/product/landing/screenshot_6.png"},
+    {id: 7, alt: "Screenshot 5", src: "/product/landing/screenshot_7.png"},
 ];
 
 export function ScreenShotRow() {
